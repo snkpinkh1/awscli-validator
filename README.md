@@ -38,3 +38,10 @@ if validator.validate_output(output):
     print("Output is valid.")
 
 ```
+
+## Testing 
+
+``
+pip install pytest
+pytest tests/
+``
